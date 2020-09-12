@@ -7,3 +7,5 @@ integer :: ab, bc, ac
 read(*,*) ax, ay
 read(*,*) bx, by
 read(*,*) cx, cy
+
+!ab = 
