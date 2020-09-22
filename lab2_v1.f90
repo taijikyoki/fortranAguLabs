@@ -29,6 +29,8 @@ program lab2_v1
     else
         minimal = mid_geometr
     end if
+    print*, maximum
+    print*, middle
     print*, minimal
     
 end program lab2_v1
