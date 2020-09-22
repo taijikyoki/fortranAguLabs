@@ -16,12 +16,12 @@ program lab2_v1
     if(y >= x .and. y >= z) maximum = y
     if(z >= x .and. z >= y) maximum = z
     
-    if(x == maximum .and. y == minimum) middle = z
-    if(y == maximum .and. x == minimum) middle = z
-    if(x == maximum .and. z == minimum) middle = y
-    if(z == maximum .and. x == minimum) middle = y
-    if(y == maximum .and. z == minimum) middle = x
-    if(z == maximum .and. y == minimum) middle = x
+    if(x == maximum .and. y == minimal) middle = z
+    if(y == maximum .and. x == minimal) middle = z
+    if(x == maximum .and. z == minimal) middle = y
+    if(z == maximum .and. x == minimal) middle = y
+    if(y == maximum .and. z == minimal) middle = x
+    if(z == maximum .and. y == minimal) middle = x
     
     
     if(x+y+z<10) then
@@ -32,3 +32,5 @@ program lab2_v1
     print*, minimal
     
 end program lab2_v1
+
+
