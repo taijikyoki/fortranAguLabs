@@ -1,6 +1,15 @@
 
 
-program
+program main_program
+Implicit none
+
+Real :: x1, x2
+Integer :: c
+
+call korni_uravnenia(3,13,-10, x1, x2, c)
+
+Print*, x1, x2
+End program
 
 subroutine korni_uravnenia(a,b,c,x1,x2, code)
 
